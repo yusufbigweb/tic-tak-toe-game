@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tak Toe Game - js</title>
+    <style>
+        .grid{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+            flex-direction: column;
+        }
+        .col{
+            border: 1px solid black;
+            height: 90px;
+            width: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .row{
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="grid">
+            <div class="row">
+                <div onclick="handleCub" id="0" class="col"></div>
+                <div onclick="handleCub" id="1" class="col"></div>
+                <div onclick="handleCub" id="2" class="col"></div>
+            </div>
+            <div class="row">
+                <div onclick="handleCub" id="3" class="col"></div>
+                <div onclick="handleCub" id="4" class="col"></div>
+                <div onclick="handleCub" id="5" class="col"></div>
+            </div>
+            <div class="row">
+                <div onclick="handleCub" id="6" class="col"></div>
+                <div onclick="handleCub" id="7"class="col"></div>
+                <div onclick="handleCub" id="8" class="col"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
