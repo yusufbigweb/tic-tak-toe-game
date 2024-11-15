@@ -24,6 +24,10 @@ function checkWin(){
     }
 }
 
+console.log("Yusuf Shaikh")
+console.log("Yusuf sHAIKH");
+
+
 
 function handleCub(el) {
     const id = Number(el.id);
