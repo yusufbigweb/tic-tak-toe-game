@@ -23,12 +23,6 @@ function checkWin(){
         return
     }
 }
-
-console.log("Yusuf Shaikh")
-console.log("Yusuf sHAIKH");
-
-
-
 function handleCub(el) {
     const id = Number(el.id);
     if(arr[id] !== null) return;
