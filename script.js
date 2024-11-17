@@ -24,8 +24,6 @@ function checkWin(){
     }
 }
 
-console.log("Yusuf")
-
 function handleCub(el) {
     const id = Number(el.id);
     if(arr[id] !== null) return;
